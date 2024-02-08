@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <title>Hard Rock Cafe Inc</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<nav class="navbar navbar-expand-lg" style="background-color:rgb(206, 229, 94);">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdlszW9W8H-pcbTbq8WP3aoiL_A7-Cq2HBNqB1eCFOL-O8w3XKWxeeFK3W86l2DID5l8U&usqp=CAU" id="logo"
+        alt=""></a>
+    <a class="navbar-brand" href="#">Hard Rock Cafe</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav" >
+        <a class=" nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#menu">Menu</a>
+        <a class="nav-link" href="#About">About Us</a>
+        <a class="nav-link" href="#chefs">Our Chefs</a>
+        <a class="nav-link" href="#cart">Cart</a>
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+<body>
+  <div class="content">
+    <div id="intro_head">
+      Hard Rock Cafe
+    </div>
+
+    <section id="intro">
+      <div>
+
+        <div id="intro_sub">
+          <p>Indulge in a symphony of flavors at our culinary haven.
+            Join us for an exquisite dining experience where every dish tells a tale of passion and perfection.
+            Your table is set for a journey of taste - welcome to a world where every bite is a celebration.</p>
+          <hr>
+          <b> Delve Into The Exquisite Delicacies</b>
+          <a class="btn btn-secondary" href="#menu" role="button" id="intro_sub"
+            style="background-color: rgb(164, 164, 156);">Explore Our Menu</a>
+        </div>
+      </div>
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1575395311793-ad870d50fbd1?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          id="intro_pic">
+      </div>
+    </section><br><br>
+
+    <h2 class="head" id="menu">!Menu!</h2><br><br>
+    <section>
+      <h3 class="subhead">Starters</h3>
+      <div class="start_card">
+        <div class="card">
+          <div class="front">
+            <img class="card_img" src="https://greenbowl2soul.com/wp-content/uploads/2019/05/chili-baby-corn.jpg"
+              alt="">
+            <p>Sweet BabyCorn </p>
+            <p class="prices">Price :Rs149</p>
+          </div>
+          <div class="back">A spicy dish featuring stir-fried baby corn in a flavorful chili-infused sauce, popular in
+            Indo-Chinese cuisine.
+            <hr><button id="Sweet BabyCorn">Add To cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="front">
+            <img class="card_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeVEbdSnZaU2hKSrj4FxPVGBR7NSXq_Z_7rQ&usqp=CAU"
+              alt="">
+            <p>Chicken Tikka</p>
+            <p class="prices">Price :Rs299</p>
+          </div>
+          <div class="back">Tender, flavorful, and slightly charred chicken bites, served with mint chutney and
+            wraps,exotic in taste
+            <hr><button id="Chicken Tikka">Add To cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="front">
+            <img class="card_img" src="https://www.vegrecipesofindia.com/wp-content/uploads/2011/10/grilled-paneer-tikka.jpg"
+              alt="">
+            <p>Paneer Tikka</p>
+            <p class="prices">Price :Rs259</p>
+          </div>
+          <div class="back">Marinated paneer skewered and grilled, develops a smoky flavor, served with mint chutney
+            <hr><button id="Paneer Tikka">Add To cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="front">
+            <img class="card_img" src="https://myfoodstory.com/wp-content/uploads/2021/10/Veg-Manchurian-2.jpg"
+              alt="">
+            <p>Veg Manchurian</p>
+            <p class="prices">Price :Rs279</p>
+          </div>
+          <div class="back">Manchurian balls dipped in schezwan chutney, spicy and exotic in taste
+            <hr><button id="Veg Manchurian">Add To cart</button>
+          </div>
+        </div>
+      </div>
+    </section><br><br>
+    <section>
+      <h3 class="subhead">Main Course</h3>
+      <div class="start_card">
+        <div class="card">
+          <div class="front">
+            <img class="card_img" src="https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg"
+              alt="">
+            <p>Paneer Butter Masala</p>
+            <p class="prices">Price :Rs299</p>
+          </div>
+          <div class="back">Paneer cubes flavored with a blend of spices, butter, best suited with naan or rotis
+            <hr><button id="Paneer Butter Masala">Add To cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="front">
+            <img class="card_img" src="https://blogger.googleusercontent.com/img/a/AVvXsEj6OMpx7wxiKLnjji4EoUEGxBT6JBUwj2Lpx8WOqyyxAxWFErWJD8Xh2gR9PcOZsT95iWQ_X4l4FgYzfxqkNaY4t1ibUcBaHeIjOfanzAWuRJJoZGmliKNkf-mgS5AQaPwQVHoTrgQzRvIQNFkITAeG3Nd9A0s_MrBXIm7L6-30dxtVCRr4vW_TSe4DXA=w640-h426"
+              alt="">
+            <p>Mushroom Chana</p>
+            <p class="prices">Price :Rs279</p>
+          </div>
+          <div class="back">An awesome and spicy blend of mushroom and chana, exquisite in taste with a savour
+            <hr><button id="Mushroom Chana">Add To cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="front">
+            <img class="card_img" src="https://www.archanaskitchen.com/images/archanaskitchen/Indian_Non_Veg_Recipes/Butter_chicken_recipe.jpg"
+              alt="">
+            <p>Chicken Butter Masala</p>
+            <p class="prices">Price :Rs299</p>
+          </div>
+
+          <div class="back"> Tender chicken pieces cooked in a flavorful and aromatic masala (spice) sauce
+            <hr><button id="Chicken Butter Masala">Add To cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="front">
+            <img class="card_img" src="https://s3.eu-central-1.amazonaws.com/qatar-delicious/ItemsImages/ItemImage_3725_(0).jpg"
+              alt="">
+            <p>Rotiyon ki Tokri</p>
+            <p class="prices">Price :Rs89</p>
+          </div>
+          <div class="back">An exotic collection of breads (kulchas,naan,rumali roti and tawa rotis)
+            <hr><button id="Rotiyon ki Tokri">Add To cart</button>
+          </div>
+        </div>
+    </section><br><br>
+    <section>
+      <h3 class="subhead">Dessert</h3>
+      <div class="start_card">
+        <div class="card">
+          <div class="front">
+            <img class="card_img" src="https://www.yummytummyaarthi.com/wp-content/uploads/2014/12/1-14.jpg"
+              alt="">
+            <p>Gulab Jamun</p>
+            <p class="prices">Price :Rs39</p>
+          </div>
+          <div class="back"> Deep-fried dumplings made of khoya (reduced milk solids) or milk powder, soaked in a sugar
+            syrup
+            <hr><button id="Gulab Jamun">Add To cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="front">
+            <img class="card_img" src="https://www.ndtv.com/cooks/images/tutti-fruity_med.jpg"
+              alt="">
+            <p>Tutti Frutti</p>
+            <p class="prices">Price :Rs89</p>
+          </div>
+          <div class="back">A mixture of colorful diced fruits all blended into a wholesome ice cream with a cherry on
+            top to garnish.
+            <hr><button id="Tutti Frutti">Add To cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="front">
+            <img class="card_img" src="https://preppykitchen.com/wp-content/uploads/2022/03/Chocolate-Lava-Cake-Feature.jpg"
+              alt="">
+            <p>Choco Lava Cake</p>
+            <p class="prices">Price :Rs99</p>
+          </div>
+          <div class="back">A small chocolate cake with a gooey, molten chocolate center,with a scoop of vanilla
+            ice-cream toppings
+            <hr><button id="Choco Lava Cake">Add To cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="front">
+            <img class="card_img" src="https://minimalistbaker.com/wp-content/uploads/2021/05/EASY-Mango-Sorbet-No-Churn-Creamy-3-ingredients-naturally-sweetened-SO-delicious-minimalistbaker-recipe-plantbased-glutenfree-sorbet-mango-5.jpg"
+              alt="">
+            <p>Mango Sorbet</p>
+            <p class="prices">Price :Rs89</p>
+          </div>
+          <div class="back">Refreshing frozen dessert made primarily from ripe mangoes, sugar, and lemon
+            <hr><button id="Mango Sorbet">Add To cart</button>
+          </div>
+        </div>
+      </div>
+    </section><br><br>
+    <section>
+      <h2 class="head" id="About">About Us</h2><br><br>
+      <div class="history">
+        <div class="text">
+          <h3 class="subhead" style="color: azure;">؟Who we Are?</h3>
+          <p>Embark on a Journey Through Time: The History of Hard Rock Cafe ✨🕰️
+
+            At Hard Rock Cafe, our story is woven with threads of passion, dedication, and a love for the culinary
+            arts. Allow us to take you on a journey through time, tracing the roots of our establishment and the
+            milestones
+            that have shaped us into the beloved culinary haven we are today.</p>
+          <p>Hard Rock Cafe was born from a seed of inspiration planted in the heart of Delhi by
+            Johnny Sins, a visionary with a profound love for exceptional food and a dream of creating a space
+            where people could gather to share delightful moments over exquisite meals. In 1969, this vision began to
+            sprout, taking root in the rich soil of Delhi's vibrant culinary scene.
+          </p>
+          <p>Our doors swung open for the first time in 1980, welcoming guests to a dining experience that promised
+            not just nourishment but a celebration of flavors. The inaugural feast showcased a menu crafted with care
+            and attention to detail, setting the tone for what would become a culinary adventure for all who entered.
+          </p><br><br>
+          <h3 class="subhead" style="color: azure;" id="chefs">Our Culinary Maestros</h3>
+        </div>
+        <div class="chefs">
+          <div class="card">
+            <div class="front">
+              <img class="card_img" src="https://static.toiimg.com/thumb/48202473.cms?resizemode=4&width=1200"
+                alt="">
+              <p>Sanjeev Kapoor</p>
+              
+            </div>
+            <div class="back">Indulge your sweet tooth with the extraordinary creations of our Head Chef,<b> Sanjeev Kapoor</b>. With an artistic flair and a dedication to perfection, transforms desserts into edible masterpieces.
+              
+            </div>
+          </div>
+          <div class="card">
+            <div class="front">
+              <img class="card_img" src="https://www.forbesindia.com/media/images/2019/Mar/img_114119_ranveerbrar_s.jpg"
+                alt="">
+              <p>Ranveer Brar</p>
+              
+            </div>
+            <div class="back">Our visionary Executive Chef, <b>Ranveer Brar</b>, is the driving force behind the delectable creations that grace your table. With a wealth of experience, Chef Ranveer Brar seamlessly blends tradition with innovation
+              
+            </div>
+          </div>
+          <div class="card">
+            <div class="front">
+              <img class="card_img" src="https://www.forbesindia.com/media/images/2023/Jun/img_212037_chefvikaskhanna.jpg"
+                alt="">
+              <p>Vikas Khanna</p>
+              
+            </div>
+            <div class="back">Assisting in the orchestration of our kitchen symphony is the incredibly talented Sous Chef, <b>Vikas Khanna</b>. A true culinary virtuoso, brings a global perspective to our menu, 
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><br><br>
+    <section>
+      <h2 class="head" id="cart">Your Cart</h2><br><br>
+      <table class="table" id="myTable">
+        <thead>
+          <tr>
+            <th scope="col">Item Name</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <thead>
+          <tr >
+              <th> Total </th>
+              <th ></th>
+              <th id="tot_price"></th>
+          </tr>
+        </thead>
+      </table>
+
+    </section>
+    
+
+    <footer>
+      <p>© 2023 Hard Rock Cafe, Inc</p>
+      <p>Social:</p>
+      <p><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><i
+            class="bi bi-instagram"></i></a></p>
+      <p><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+      </p>
+      <p><a href="https://www.google.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-google"></i></a></p>
+      <p>Boring Stuff:</p>
+      <a>Privacy Policy</a>
+      <a>Disclosure</a>
+      <a href="#">Back To Top</a>
+    </footer>
+  </div>
+
+
+</body>

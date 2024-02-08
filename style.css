@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+* {
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    background-image: url(doodles.jpg); 
+    background-size: contain;
+    backdrop-filter: blur(0.8px);
+    height: 100%;
+    width: 100%;
+}
+
+.content{
+    background: linear-gradient(45deg, rgba(223, 243, 4, 0.3), rgba(255, 255, 255, 0.97));
+    z-index: 1;
+}
+
+#logo {
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+
+}
+
+#intro {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.history{
+    background-image: url('https://www.hardrockcafe.com/location/new-delhi/files/5446/9983608_ImageLargeWidth.jpg');
+    background-size: cover;
+    border-radius: 20%;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Salsa', cursive;
+    font-size: 25px;
+}
+.text{
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: rgb(255, 255, 255);
+    border-radius: 20%;
+}
+.chefs{
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;   
+    overflow-x: auto;
+    width: 100%;
+    padding-top: 30px;
+    justify-content: center;
+    gap: 50px;
+}
+.chefs .card_img{
+    height: 80%;
+
+}
+.chefs .card .back{
+    font-size: 18px;
+}
+
+#intro_head {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 120px;
+    color: rgb(57, 57, 59);
+}
+
+#intro_pic {
+    opacity: 0.8;
+    border-radius: 100%;
+    height: 400px;
+    width: 600px;
+}
+
+#intro_sub {
+    backdrop-filter: blur(1.4px);
+    font-family: 'Salsa', cursive;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+.card {
+    min-width: 300px;
+    min-height: 300px;
+    text-align: center; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    position: relative;
+    transform-style: preserve-3d;
+    border-radius: 30px;
+    border-bottom: 4px solid black;
+    transition: transform 1s;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+
+.card .front, .card .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+
+.card button{
+    border-radius: 10px;
+    background-color:yellow
+}
+.card .back {
+    padding: 55px 20px;
+    background-image: url(food_bg.jpg); 
+    border-radius: 30px;
+    background-size: cover;
+    transform: rotateY(180deg); 
+    font-family: 'Salsa', cursive;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+.card_img{
+    width: 100%;
+    height: 72%;
+    object-fit: cover;
+}
+
+.head {
+    text-align: center;
+    backdrop-filter: blur(1.4px);
+    font-size: 80px;
+    color: rgb(55, 52, 52);
+    font-family: 'Bebas Neue', sans-serif;
+}
+.prices{
+    color: rgb(18, 154, 18);
+    font-size: 20px;
+    font-weight: bolder;
+}
+.subhead {
+    text-align: center;
+    backdrop-filter: blur(1.4px);
+    font-size: 50px;
+    color:rgb(75, 72, 72);
+    text-decoration: underline;
+
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.start_card {
+    display: flex;   
+    overflow-x: auto;
+    width: 100%;
+    padding-top: 30px;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+footer{
+    padding-top: 10px;
+    justify-content:center; 
+    text-align: center;
+    font-size: larger;
+    display: flex;
+    color: azure;
+    width: 100%;
+    background-color: black;
+    
+}
+footer p{
+    margin-left: 30px;
+}
+
+footer a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:1000px) {
+    
+    #intro_pic{
+        width: 400px;
+        height: 270px;
+    }
+
+    #intro{
+        flex-direction: column-reverse;
+    }
+    #intro_sub{
+        text-align: center;
+    }
+    footer{
+        flex-direction: column;      
+    }
+}
